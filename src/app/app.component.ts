@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { EsriLoaderService } from 'angular-esri-loader';
 import { EsriModuleProvider } from 'angular-esri-components';
+import { EsriLoaderService } from '../services/esri-loader.service';
 
 @Component({
   selector: 'app-root',
